@@ -36,7 +36,7 @@ function draw(){
     stroke(255,255,255);
     textFont("harrington")
     text("NOTE: USE UP ARROW ⬆ KEY TO FEED THE DOG   !", 590,540);
-    text("NOTE: USE SAPCE KEY FOR ANOTHER 25 STACK OF FOOD  !",500,80);
+    text("NOTE: USE SAPCE KEY FOR ANOTHER STACK OF 25 MILK BOTTLES !",500,80);
    
     if(keyWentDown(UP_ARROW)){
         writeStock(foodS);
